@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-EN">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8" />
@@ -35,7 +35,35 @@
   </header>
 
 
-  <main></main>
+  <main>
+    <article>
+      <img src="images/big_image_1.jpg" alt="someone hold a laptop">
+      <h2>Contact Us</h2>
+      <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+        mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada
+        magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris
+        condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+      <form>
+        <div class="mb-3">
+          <label for="inputName" class="form-label">Name*</label>
+          <input type="text" class="form-control" id="inputName">
+        </div>
+        <div class="mb-3">
+          <label for="inputPhone" class="form-label">Phone*</label>
+          <input type="tel" class="form-control" id="inputPhone">
+        </div>
+        <div class="mb-3">
+          <label for="inputEmail" class="form-label">Email*</label>
+          <input type="email" class="form-control" id="inputEmail">
+        </div>
+        <div class="mb-3">
+          <label for="inputMessage" class="form-label">Write Message</label>
+          <textarea class="form-control" id="inputMessage"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </article>
+  </main>
 
 
   <aside>
@@ -51,7 +79,7 @@
       </div>
     </form>
     <section>
-      <img src="images/person_1.jpg">
+      <img src="images/person_1.jpg" alt="woman portrait">
       <h2>David Craig</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem facilitis sunt repellendus excepturi
         beatae porro debitis voluptate nulla quo veniam fuga sit molestias minus.</p>
@@ -127,8 +155,8 @@
     </section>
   </aside>
   <footer class="p-5 text-light bg-dark text-center">
-    <p class="mb-0">&copy; 2021 Made with <svg class="text-danger" xmlns="http://www.w3.org/2000/svg" width="16"
-        height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+    <p class="mb-0">&copy; 2021 Made with <svg class="bi bi-heart-fill text-danger" xmlns="http://www.w3.org/2000/svg"
+        width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
         <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z" />
       </svg> for Alyra</p>
   </footer>
