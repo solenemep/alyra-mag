@@ -1,0 +1,19 @@
+h1, h2, h3 {
+  font-family: 'Libre Baskerville', serif;
+}
+header, body, footer {
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif; 
+}
+
+main h3 {
+  font-size: 18px;
+}
+
+aside h2 {
+  font-size: 18px;
+}
+
+aside h3 {
+  font-size: 16px;
+}
