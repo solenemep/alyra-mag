@@ -5,7 +5,8 @@ header, body, footer {
   font-size: 16px;
   font-family: 'Montserrat', sans-serif; 
 }
-h2 {
+
+.carousel-title {
   font-size: 20px;
 }
 
